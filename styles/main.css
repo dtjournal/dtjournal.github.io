@@ -1,0 +1,36 @@
+@font-face {
+  font-family: SGA
+  src: url('/fonts/standard_galactic_alphabet.ttf');
+}
+body {
+  background-color: #1e90ff;
+  font-family: SGA;
+}
+p, a, h1, h2, h3, h4, h5, h6 {
+  color: green;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fefefe;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.nav li a:hover {
+  background-color: #e4e4e4;
+}
