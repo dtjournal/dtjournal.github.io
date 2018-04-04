@@ -1,10 +1,13 @@
 @font-face {
-  font-family: SGA;
-  src: url('/fonts/standard_galactic_alphabet.ttf');
+    font-family: 'SGA';
+    src: url('/fonts/standard_galactic_alphabet-webfont.woff2') format('woff2'),
+         url('/fonts/standard_galactic_alphabet-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 body {
   background-color: #1e90ff;
-  font-family: SGA;
+  font-family: 'SGA';
 }
 p, a, h1, h2, h3, h4, h5, h6 {
   color: green;
